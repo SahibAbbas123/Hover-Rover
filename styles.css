@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 11%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: auto;
+    left: auto;
+    width: 98%;
+    height: 98%;
+    box-sizing: border-box;
+    border: 2px solid #e91e63;
+    border-radius: 17px;
+    box-shadow: 0 0 20px #e91e63;
+    z-index: -1;
+}
+
+#titleContainer {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #FFFF00;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#logoContainer {
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    left: 25px;
+}
+
+#gitLogo {
+    width: 100%;
+    height: 100%;
+}
+
+#instructionsContainer {
+    position: fixed;
+    bottom: 22px;
+    right: 29px;
+}
+
+#greets {
+    font-size: 12px;
+    position: fixed;
+    top: 665px;
+    text-shadow: 0 0 10px #bc003c;
+}
+
+#c {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #bc003c53;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: #bc003c;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff0000;
+    animation: dropAndBounce 1.5s ease-in-out;
+}
+
+.arrow-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 70px;
+    right: 30px;
+}
+
+.arrow-div {
+    font: 12px;
+    width: 45px;
+    height: 45px;
+    margin: 5px 6px 1px 5px;
+    background-color: #bc003c53;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.horizontal-arrows {
+    display: flex;
+}
+
+@keyframes dropAndBounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(-500px);
+    }
+    80% {
+      transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/*  DO NOT REMOVE THIS COMMENT!!
+ @keyframes appearAnimation {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .appear-animation {
+    animation: appearAnimation 0.5s ease-out;
+  } */
