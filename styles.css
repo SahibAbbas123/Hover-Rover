@@ -23,7 +23,7 @@ body::before {
     border: 2px solid #e91e63;
     border-radius: 17px;
     box-shadow: 0 0 20px #e91e63;
-    z-index: -1;
+    z-index: 999;
 }
 
 #titleContainer {
@@ -67,7 +67,7 @@ body::before {
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
-    background-color: #bc003c53;
+    background-color: #bc003c;
 }
 
 #box {
