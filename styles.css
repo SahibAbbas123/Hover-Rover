@@ -73,10 +73,10 @@ body::before {
 #box {
     width: 100px;
     height: 100px;
-    background-color: #bc8000;
+    background-color: #bc003c;
     position: absolute;
     border-radius: 10px;
-    box-shadow: 0 0 10px #bc8000;
+    box-shadow: 0 0 10px #bc003c53;
     animation: dropAndBounce 1.5s ease-in-out;
 }
 
