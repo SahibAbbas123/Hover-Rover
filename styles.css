@@ -23,7 +23,9 @@ body::before {
     border: 2px solid #e91e63;
     border-radius: 17px;
     box-shadow: 0 0 20px #e91e63;
+    background: url('_f4491d94-481e-417b-b328-b84354c070ca (1).jpeg') center/cover no-repeat;
     z-index: 999;
+    opacity: 0.5;
 }
 
 #titleContainer {
@@ -76,7 +78,7 @@ body::before {
     background-color: #bc003c;
     position: absolute;
     border-radius: 10px;
-    box-shadow: 0 0 10px #bc003c53;
+    box-shadow: 0 0 10px #ff0000;
     animation: dropAndBounce 1.5s ease-in-out;
 }
 
