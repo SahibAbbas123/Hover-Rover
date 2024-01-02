@@ -67,16 +67,16 @@ body::before {
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
-    background-color: #bc003c;
+    background-color: #bc003c53;
 }
 
 #box {
     width: 100px;
     height: 100px;
-    background-color: #bc003c;
+    background-color: #bc8000;
     position: absolute;
     border-radius: 10px;
-    box-shadow: 0 0 10px #ff0000;
+    box-shadow: 0 0 10px #bc8000;
     animation: dropAndBounce 1.5s ease-in-out;
 }
 
